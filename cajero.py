@@ -65,7 +65,7 @@ class Atm:
         print("**")
         print("Qué acción desea realizar?")
         print("1 Ingresar Usuario\n#2: Registrarte\n#3 salir")
-        opcion = int(input("Digita la opción"))
+        opcion = int(input("Digita la opción: "))
 
         if opcion ==1:
             self.IngresarCuenta()
